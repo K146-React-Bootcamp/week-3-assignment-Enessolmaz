@@ -1,6 +1,30 @@
-.container {
-  
-}
+
 .actionButton {
   margin-right: 5px;
+}
+
+tr > th{
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 250ms;
+}
+
+th:hover{
+  color: #fff;
+  background-color: rgb(61, 53, 179);
+}
+
+.divButton{
+  margin: 20px;
+}
+.btn-danger{
+  margin-right: 10px;
+}
+.pagination{
+  padding: 5px;
+  background-color: rgb(61, 53, 179);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
